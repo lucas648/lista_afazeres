@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
+import Task from './components/task-component/task'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      
+      < Task/>
     </div>
   );
 }
